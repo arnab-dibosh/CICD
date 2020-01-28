@@ -23,4 +23,3 @@ Day 2 (11.01.2020)
 Day 3 (25.01.2020)
 - k8s High availability
 - Pricing aspects for clients
-- Final exam
