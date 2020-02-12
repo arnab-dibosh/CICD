@@ -87,7 +87,7 @@ helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 helm repo update
 
 #CRATE NAMESPACE ingress-basic
-kubectl create ns ingress-basic
+kubectl create ns app-dev
 #OUTPUT:
 #namespace/ingress-basic created
 
