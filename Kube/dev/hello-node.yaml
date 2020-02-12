@@ -78,7 +78,7 @@ spec:
     #- app-staging.informatiq.no
 #    secretName: app-staging-informatiq-no-cert-prod
   rules:
-  - host: arnab28.eastus.cloudapp.azure.com
+  - host: arnab12.eastus.cloudapp.azure.com
     http:
       paths:           
       - path: /api/node
@@ -88,5 +88,5 @@ spec:
       - path: /html
         backend:
           serviceName: aks-html-service
-          servicePort: 80
+          servicePort: 90
       
