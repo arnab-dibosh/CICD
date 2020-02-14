@@ -78,10 +78,10 @@ spec:
     #- app-staging.informatiq.no
 #    secretName: app-staging-informatiq-no-cert-prod
   rules:
-  - host: arnab12.eastus.cloudapp.azure.com
+  - host: arnab14.eastus.cloudapp.azure.com
     http:
       paths:           
-      - path: /api/node
+      - path: /kube
         backend:
           serviceName: aks-hellonode-service
           servicePort: 80
